@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  *{
+    font-family: "Roboto", sans-serif;
+  }
+.header{
+    background-color: #AAB396;
+}
+.header-hero{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+.header-content-left{
+    display: flex;
+    flex-direction: column;
+}
+.left-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.left-bottom .schools{
+    font-size: 25px;
+    align-self: center;
+    color: #F7EED3;
+}
+.header-content-left .name{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #F7EED3;
+}
+.selfie{
+    width: 120px;
+    border-radius: 25%;
+    margin-right: 20px;
+    border: 3px solid #674636;
+}
+.header-content-right .personal-info{
+    font-size: 25px;
+    color: #F7EED3;
+}
+.header-content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    background-color: #FFF8E8;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 30px;
+}
