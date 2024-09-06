@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  *{
+    font-family: "Roboto", sans-serif;
+  }
+.header{
+    background-color:#AAB396;
+}
+.header-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.title{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.description{
+    background-color:#F7EED3;
+}
+.description .info{
+    font-weight: lighter;
+    padding: 20px;
+}
+.woodworking{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF8E8;
+}
+.woodworking .smalltitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.smalltitle .big{
+    font-size: 40px;
+    padding: 10px;
+    margin: 0;
+}
+.smalltitle .small{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+.woodimages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.woodimages .wood{
+    width: 220px;
+    border-radius: 15%;
+    margin-right: 20px;
+    border: 3px solid #674636;
+}
+.woodimages .sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hover{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+    background-color:#F7EED3;
+    justify-content: space-evenly;
+}
+.hover .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 40%;
+}
+.hover .topimg{
+    width: 30%; 
+    height: auto;
+    border-radius: 10%;
+    border: 3px solid #674636;
+    margin-right: 10px;
+}
+.hover .right{
+    display: flex;
+    flex-direction: row;
+    height:fit-content;
+    justify-content: space-around;
+    flex: 60%;
+}
+.carscar{
+    display: flex;
+    flex-direction: row;
+}
+.carscar .pic{
+    width: 40%; 
+    border-radius: 10%;
+    border: 3px solid #FFF8E8;
+    margin-right: 10px;
+    flex: 60%;
+}
+.carscar .car{
+    display: flex;
+    flex-direction: row;
+    background-color: #AAB396;
+    padding: 15px;
+    flex: 50%;
+    align-items: center;
+}
+.carscar .scar{
+    display: flex;
+    flex-direction: row;
+    background-color: #674636;
+    padding: 15px;
+    flex: 50%;
+    align-items: center;
+}
+.carscar .text{
+    display: flex;
+    flex: 40%;
+}
