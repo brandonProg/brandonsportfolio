@@ -42,6 +42,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     height: fit-content;
+    align-items: center;
     flex: 60%;
 }
 .FTC-top .topimg{
@@ -104,6 +105,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     flex: 40%;
 }
 .FRC2-top .topimg{
@@ -158,6 +160,7 @@ body {
     flex-direction: row;
     height:fit-content;
     justify-content: center;
+    align-items: center;
     flex: 60%;
 }
 .FRC3-bottom{
@@ -173,3 +176,15 @@ body {
     margin-right: 20px;
     border: 3px solid #674636;
 }
+.link:link {
+    color: #FFF8E8;
+  }
+  .link:visited {
+    color: #FFF8E8;
+  }
+  .link:hover {
+    color: #FFF8E8;
+  }
+  .link:active {
+    color: #FFF8E8;
+  }

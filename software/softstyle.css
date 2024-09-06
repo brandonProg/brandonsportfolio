@@ -56,6 +56,7 @@ body {
 .python .pic{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .python .topimg{
     width: 40%; 
@@ -68,6 +69,11 @@ body {
     flex-direction: row;
     background-color: #F7EED3;
     padding: 20px;
+    align-items: center;
+}
+.scara .right{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .scara .pic{
@@ -99,3 +105,15 @@ body {
     border: 3px solid #674636;
     margin: 5px;
 }
+.link:link {
+    color: #FFF8E8;
+  }
+  .link:visited {
+    color: #FFF8E8;
+  }
+  .link:hover {
+    color: #FFF8E8;
+  }
+  .link:active {
+    color: #FFF8E8;
+  }

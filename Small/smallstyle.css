@@ -92,6 +92,7 @@ body {
     height:fit-content;
     justify-content: space-around;
     flex: 60%;
+    align-items: center;
 }
 .carscar{
     display: flex;
@@ -101,7 +102,7 @@ body {
     width: 40%; 
     border-radius: 10%;
     border: 3px solid #FFF8E8;
-    margin-right: 10px;
+    margin: 10px;
     flex: 60%;
 }
 .carscar .car{
@@ -124,3 +125,15 @@ body {
     display: flex;
     flex: 40%;
 }
+.link:link {
+    color: #FFF8E8;
+  }
+  .link:visited {
+    color: #FFF8E8;
+  }
+  .link:hover {
+    color: #FFF8E8;
+  }
+  .link:active {
+    color: #FFF8E8;
+  }

@@ -81,3 +81,15 @@ body {
     margin-right: 20px;
     border: 3px solid #FFF8E8;
 }
+.link:link {
+    color: #FFF8E8;
+  }
+  .link:visited {
+    color: #FFF8E8;
+  }
+  .link:hover {
+    color: #FFF8E8;
+  }
+  .link:active {
+    color: #FFF8E8;
+  }
