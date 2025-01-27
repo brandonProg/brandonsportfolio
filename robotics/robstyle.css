@@ -74,6 +74,48 @@ body {
     background-color: black;
     height: 5px;
 }
+
+.RI3D-top{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    background-color:#AAB396;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.RI3D-top .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 40%;
+}
+.RI3D-top .topimg{
+    width: 40%; 
+    height: fit-content;
+    border-radius: 10%;
+    border: 3px solid #674636;
+    margin-right: 10px;
+}
+.RI3D-top .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 60%;
+}
+.RI3D-bottom{
+    display: flex;
+    flex-direction: row;
+    background-color: #AAB396;
+    justify-content: space-around;
+    padding: 25px;
+}
+.RI3D-bottom .botimg{
+    width: 20%;
+    border-radius: 10%;
+    margin-right: 20px;
+    border: 3px solid #F7EED3;
+}
+
 .FRC1{
     display: flex;
     flex-direction: column;
@@ -97,7 +139,7 @@ body {
     display: flex;
     flex-direction: row;
     padding: 25px;
-    background-color:#FFF8E8;
+    background-color:#AAB396;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -139,7 +181,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 25px;
-    background-color:#F7EED3;
+    background-color:#FFF8E8;
     justify-content: space-evenly;
 }
 .FRC3-top .left{
